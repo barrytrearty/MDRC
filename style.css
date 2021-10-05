@@ -1,0 +1,137 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  /* width: 95vw; */
+}
+
+h2 {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#logo-section {
+  background-color: rgb(91, 155, 213);
+  /* width: 100%; */
+  height: 100vh;
+}
+
+#logo-section img {
+  width: 80%;
+  height: auto;
+  padding-top: 25%;
+  margin-left: 10%;
+}
+
+#nav {
+  padding-top: 10%;
+}
+
+.img-anim {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+#nav1 {
+  opacity: 0;
+  transition: opacity 1.2s ease-in;
+}
+
+#nav2 {
+  opacity: 0;
+  transition: opacity 1.4s ease-in;
+}
+
+#nav3 {
+  opacity: 0;
+  transition: opacity 1.6s ease-in;
+}
+
+#nav4 {
+  opacity: 0;
+  transition: opacity 1.8s ease-in;
+}
+
+.navig a {
+  font-weight: 700;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #logo-section img {
+    width: 60%;
+    height: auto;
+    padding-top: 10%;
+    margin-left: 20%;
+  }
+
+  .socials a {
+    /* display: flex; */
+    margin-left: 20%;
+    font-size: larger;
+  }
+
+  .navig {
+    /* padding-top: 10%; */
+    padding-left: 5%;
+    /* margin-left: 20%; */
+  }
+}
+
+.pict {
+  width: 80%;
+  margin-left: 10%;
+}
+
+@media screen and (min-width: 768px) {
+  .navig a {
+    color: white;
+    margin-top: 10%;
+    padding-left: 10%;
+    /* margin-left: 20%; */
+  }
+
+  .socials {
+    margin-left: 25%;
+  }
+
+  .socials a {
+    margin-left: 20%;
+  }
+
+  .navig {
+    margin-top: 10%;
+    padding-left: 10%;
+    /* margin-left: 20%; */
+  }
+
+  #logo-section {
+    position: fixed;
+  }
+
+  #main-section {
+    margin-left: 25%;
+  }
+}
+
+.other-pic {
+  width: 100%;
+}
+
+footer {
+  color: black;
+  font-weight: 600;
+  background-color: aqua;
+}
